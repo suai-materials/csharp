@@ -1,0 +1,45 @@
+* Классы(повторение)
+#+begin_src
+[атрибуты][модификаторы доступа]
+class class_name [ : basic_class [, interfaces] ]{
+   /* attrs, methods...delegates... */
+}
+#+end_src
+
+** Конструкторы
+
+Конструктор - это специальный метод, который служит для создания и
+ инициализации объектов класса.
+Имя как у класса.
+
+Это конструктор, он и в Java и C# конструктор))).
+
+И ТАМ И ТАМ ЕСТЬ НЕСКОЛЬКО КОНСТРУКТОРОВ
+
+** Наследование в C#
+
+Вызов конструктора:
+
+#+begin_src c#
+class Bar: Parallel {
+   public double r;
+   public Bar(double ma, double mb, double mc, double mr): base(ma, mb, mc){
+      r = mr;
+   }
+}
+#+end_src
+
+** Абстрактные классы
+
+Абстрактный класс имеет в определении слово __abstract__
+
+#+begin_src
+abstract class class_name{
+   // smth...
+}
+#+end_src
+
+override - **переопределение**
+
+
+virtual - методы доступные для переопределения
